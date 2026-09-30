@@ -11,10 +11,6 @@ def usage(mesg=None):
 
 # exit the program if the correct arguments are not given
 
-#Julies input: python3 /Users/juliehaugaard/Desktop/unix_og_python/projekt/scr/motif_search_copy.py /Users/juliehaugaard/Desktop/unix_og_python/projekt/motif.fsa /Users/juliehaugaard/Desktop/unix_og_python/projekt/signal_description.tsv 16
-
-
-
 def read_file(filename):
     """takes a filename as a parameter and returns a dict {header: sequence}"""
     # make the dict to store sequences
